@@ -210,6 +210,14 @@ def process_arinvoice_data(df_arinvoice, log_container):
 # --- Streamlit App ---
 st.title("Excel Data Analyzer :bar_chart:")
 st.markdown("Upload your Codate, IVRV, and AR Invoice/Ship Excel sheets, and I will process and blend them for analysis.")
+# Create a section for useful links
+st.markdown("### Useful Links")
+st.markdown("""
+- [AR Invoice & Ship Recent Report](http://hffsuk02/Reports/report/ReportsUK/Customer/ARInvoiceShipRecent)
+- [AR Invoice by Status Line Report](http://hffsuk02/Reports/report/ReportsUK/Accounting/ARInvByStatusLine)
+- [CoDate2-X Report](http://hffsuk02/Reports/report/ReportsUK/Customer/CoDate2-X)
+""")
+st.markdown("---")  # Horizontal line for separation
 
 # File Uploaders
 codate_file = st.file_uploader("Upload Codate Excel File", type=["xlsx", "xls"])
