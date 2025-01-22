@@ -221,8 +221,8 @@ st.markdown("---")  # Horizontal line for separation
 
 # File Uploaders
 codate_file = st.file_uploader("Upload Codate Excel File", type=["xlsx", "xls"])
-ivrv_file = st.file_uploader("Upload IVRV (Missed Invoices) Excel File", type=["xlsx", "xls"])
-arinvoice_file = st.file_uploader("Upload AR Invoice/Ship Excel File", type=["xlsx", "xls"])
+ivrv_file = st.file_uploader("Upload ARInvByStatusLine Excel File", type=["xlsx", "xls"])
+arinvoice_file = st.file_uploader("Upload AR ARInvoiceShipRecent Excel File", type=["xlsx", "xls"])
 
 process_button = st.button("Process Data")
 
