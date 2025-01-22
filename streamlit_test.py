@@ -209,7 +209,7 @@ def process_arinvoice_data(df_arinvoice, log_container):
 
 # --- Streamlit App ---
 st.title("Excel Data Analyzer :bar_chart:")
-st.markdown("Upload your Codate, IVRV, and AR Invoice/Ship Excel sheets, and I will process and blend them for analysis.")
+st.markdown("PLEASE ENSURE THE DATA IS UNTOUCHED - thank you :) | Upload your Codate, IVRV, and AR Invoice/Ship Excel sheets, and I will process and blend them for analysis.")
 # Create a section for useful links
 st.markdown("### Useful Links")
 st.markdown("""
